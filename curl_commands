@@ -1,0 +1,32 @@
+curl -v http://localhost:8080/members/id/1
+
+curl -v http://localhost:8080/members/name/Duygu
+
+Invoke-WebRequest -Uri "http://localhost:8080/accounts/" `
+                  -Method POST `
+                  -ContentType "application/json" `
+                  -Body '{
+                           "accountType": "Savings",
+                           "balance": 1000.0,
+                           "member": {
+                             "memberID": 1,
+                             "name": "John Doe",
+                             "phone": "123-456-7890",
+                             "accountType": "Savings"
+                           }
+                         }'
+
+curl -v http://localhost:8080/accounts/Duygu
+
+curl -v http://localhost:8080/accounts/member?name=Duygu&balance=100
+
+Invoke-WebRequest -Uri "http://localhost:8080/members/1" `
+                  -Method PUT `
+                  -ContentType "application/json" `
+                  -Body '{
+                            "name": "Pam",
+                            "phone": "1234567890"
+                        }'
+
+Invoke-WebRequest -Uri "http://localhost:8080/members/delete/1" -Method DELETE
+
