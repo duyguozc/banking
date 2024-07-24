@@ -1,24 +1,17 @@
-curl -v http://localhost:8080/members/id/1
+﻿curl -X GET http://localhost:8080/members/id/1
+Invoke-WebRequest -Uri "http://localhost:8080/members/1" -Method GET
 
-curl -v http://localhost:8080/members/name/Duygu
+curl -X GET "http://localhost:8080/members/name?name=Duygu"
+Invoke-WebRequest -Uri "http://localhost:8080/members/name?name=Duygu" -Method GET
 
-Invoke-WebRequest -Uri "http://localhost:8080/accounts/" `
+
+Invoke-WebRequest -Uri "http://localhost:8080/members/add" `
                   -Method POST `
                   -ContentType "application/json" `
                   -Body '{
-                           "accountType": "Savings",
-                           "balance": 1000.0,
-                           "member": {
-                             "memberID": 1,
                              "name": "John Doe",
-                             "phone": "123-456-7890",
-                             "accountType": "Savings"
-                           }
+                             "phone": "123456789"
                          }'
-
-curl -v http://localhost:8080/accounts/Duygu
-
-curl -v http://localhost:8080/accounts/member?name=Duygu&balance=100
 
 Invoke-WebRequest -Uri "http://localhost:8080/members/1" `
                   -Method PUT `
@@ -28,5 +21,34 @@ Invoke-WebRequest -Uri "http://localhost:8080/members/1" `
                             "phone": "1234567890"
                         }'
 
-Invoke-WebRequest -Uri "http://localhost:8080/members/delete/1" -Method DELETE
+$headers = @{
+    "Content-Type" = "application/json"
+}
+$body = @{
+    "accountType" = "checking"
+    "balance" = 600.00
+    "interestRate" = 2.3
+    "dateOpened" = "2024-07-17"
+} | ConvertTo-Json
+Invoke-WebRequest -Uri "http://localhost:8080/accounts/add?memberId=2" -Method POST -Headers $headers -Body $body
 
+
+curl -v http://localhost:8080/accounts/member?name=Duygu&balance=100
+Invoke-WebRequest -Uri "http://localhost:8080/accounts/member?name=Duygu&balance=100" -Method GET
+
+
+Invoke-WebRequest -Uri "http://localhost:8080/members/delete/1" -Method DELETE
+Invoke-WebRequest -Uri "http://localhost:8080/accounts/delete/1" -Method DELETE
+
+//CURL for Regres
+
+curl -X GET "https://reqres.in/api/users?page=2"
+curl -X POST "https://reqres.in/api/users" -H "Content-Type: application/json" -d '{
+  "name": "Duygu Senturk",
+  "job": "Software Developer"
+}'
+
+curl -X PUT "https://reqres.in/api/users/2" -H "Content-Type: application/json" -d{
+  "name": "Duygu Senturk",
+  "job": "Senior Software Developer"
+}

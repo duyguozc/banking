@@ -26,8 +26,8 @@ public class MemberController {
         return ResponseEntity.ok(member);
     }
 
-    @GetMapping("/name/{name}")
-    public ResponseEntity<?> getTotalLoanByName(@PathVariable String name){
+    @GetMapping("/name")
+    public ResponseEntity<?> getTotalLoanByName(@RequestParam String name){
         Member member = memberService.getMemberByName(name);
         if (member != null){
             Double amount = memberService.calculateTotalLoan(member);

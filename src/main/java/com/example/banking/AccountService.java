@@ -1,13 +1,9 @@
 package com.example.banking;
 
-import jakarta.persistence.EntityNotFoundException;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.repository.query.Param;
 import org.springframework.stereotype.Service;
-
-
 import java.util.List;
-import java.util.Optional;
+
 
 @Service
 public class AccountService {
@@ -31,6 +27,16 @@ public class AccountService {
     List<Account> findAccountsByThreshold(String name, Double balance){
         return repository.findAccountsByThreshold(name, balance);
     }
+
+    Boolean accountExists(Long id){
+        return repository.existsById(id);
+    }
+
+    void deleteAccount(Long id){
+        repository.deleteById(id);
+    }
+
+
 
 
 }
