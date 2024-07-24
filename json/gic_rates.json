@@ -1,0 +1,402 @@
+{
+  "tiered_rates": {
+    "Up to $24,999": {
+      "Rates": [
+        {
+          "Term": "30-59 days",
+          "Rate": 2.30
+        },
+        {
+          "Term": "60-89 days",
+          "Rate": 2.35
+        },
+        {
+          "Term": "90-179 days",
+          "Rate": 2.40
+        },
+        {
+          "Term": "180-269 days",
+          "Rate": 3.40
+        },
+        {
+          "Term": "270-364 days",
+          "Rate": 3.60
+        },
+        {
+          "Term": "1 Year Cashable",
+          "Rate": 3.00
+        },
+        {
+          "Term": "1 Year",
+          "Rate": 4.70
+        },
+        {
+          "Term": "2 Year",
+          "Rate": 4.45
+        },
+        {
+          "Term": "3 Year",
+          "Rate": 4.30
+        },
+        {
+          "Term": "Community Inspiration GIC Special",
+          "Rate": 4.40
+        },
+        {
+          "Term": "4 Year",
+          "Rate": 4.25
+        },
+        {
+          "Term": "4 Year - Affordable Housing GIC",
+          "Rate": 4.25
+        },
+        {
+          "Term": "5 Year",
+          "Rate": 4.10
+        }
+      ]
+    },
+    "$25,000 to $49,999": {
+      "Rates": [
+        {
+          "Term": "30-59 days",
+          "Rate": 2.40
+        },
+        {
+          "Term": "60-89 days",
+          "Rate": 2.45
+        },
+        {
+          "Term": "90-179 days",
+          "Rate": 2.50
+        },
+        {
+          "Term": "180-269 days",
+          "Rate": 3.40
+        },
+        {
+          "Term": "270-364 days",
+          "Rate": 3.65
+        },
+        {
+          "Term": "1 Year Cashable",
+          "Rate": 3.05
+        },
+        {
+          "Term": "1 Year",
+          "Rate": 4.75
+        },
+        {
+          "Term": "2 Year",
+          "Rate": 4.50
+        },
+        {
+          "Term": "3 Year",
+          "Rate": 4.35
+        },
+        {
+          "Term": "Community Inspiration GIC Special",
+          "Rate": 4.45
+        },
+        {
+          "Term": "4 Year",
+          "Rate": 4.30
+        },
+        {
+          "Term": "4 Year - Affordable Housing GIC",
+          "Rate": 4.30
+        },
+        {
+          "Term": "5 Year",
+          "Rate": 4.15
+        }
+      ]
+    },
+    "$50,000 to $99,999": {
+      "Rates": [
+        {
+          "Term": "30-59 days",
+          "Rate": 2.50
+        },
+        {
+          "Term": "60-89 days",
+          "Rate": 2.55
+        },
+        {
+          "Term": "90-179 days",
+          "Rate": 2.55
+        },
+        {
+          "Term": "180-269 days",
+          "Rate": 3.40
+        },
+        {
+          "Term": "270-364 days",
+          "Rate": 3.70
+        },
+        {
+          "Term": "1 Year Cashable",
+          "Rate": 3.10
+        },
+        {
+          "Term": "1 Year",
+          "Rate": 4.80
+        },
+        {
+          "Term": "2 Year",
+          "Rate": 4.55
+        },
+        {
+          "Term": "3 Year",
+          "Rate": 4.40
+        },
+        {
+          "Term": "Community Inspiration GIC Special",
+          "Rate": 4.50
+        },
+        {
+          "Term": "4 Year",
+          "Rate": 4.35
+        },
+        {
+          "Term": "4 Year - Affordable Housing GIC",
+          "Rate": 4.35
+        },
+        {
+          "Term": "5 Year",
+          "Rate": 4.20
+        }
+      ]
+    },
+    "$100,000 to $249,999": {
+      "Rates": [
+        {
+          "Term": "30-59 days",
+          "Rate": 2.55
+        },
+        {
+          "Term": "60-89 days",
+          "Rate": 2.60
+        },
+        {
+          "Term": "90-179 days",
+          "Rate": 2.60
+        },
+        {
+          "Term": "180-269 days",
+          "Rate": 3.45
+        },
+        {
+          "Term": "270-364 days",
+          "Rate": 3.75
+        },
+        {
+          "Term": "1 Year Cashable",
+          "Rate": 3.15
+        },
+        {
+          "Term": "1 Year",
+          "Rate": 4.85
+        },
+        {
+          "Term": "2 Year",
+          "Rate": 4.60
+        },
+        {
+          "Term": "3 Year",
+          "Rate": 4.45
+        },
+        {
+          "Term": "Community Inspiration GIC Special",
+          "Rate": 4.55
+        },
+        {
+          "Term": "4 Year",
+          "Rate": 4.40
+        },
+        {
+          "Term": "4 Year - Affordable Housing GIC",
+          "Rate": 4.40
+        },
+        {
+          "Term": "5 Year",
+          "Rate": 4.25
+        }
+      ]
+    },
+    "$250,000 to $499,999": {
+      "Rates": [
+        {
+          "Term": "30-59 days",
+          "Rate": 2.55
+        },
+        {
+          "Term": "60-89 days",
+          "Rate": 2.60
+        },
+        {
+          "Term": "90-179 days",
+          "Rate": 2.65
+        },
+        {
+          "Term": "180-269 days",
+          "Rate": 3.50
+        },
+        {
+          "Term": "270-364 days",
+          "Rate": 3.80
+        },
+        {
+          "Term": "1 Year",
+          "Rate": 4.90
+        },
+        {
+          "Term": "2 Year",
+          "Rate": 4.65
+        },
+        {
+          "Term": "3 Year",
+          "Rate": 4.50
+        },
+        {
+          "Term": "Community Inspiration GIC Special",
+          "Rate": 4.60
+        },
+        {
+          "Term": "4 Year",
+          "Rate": 4.45
+        },
+        {
+          "Term": "4 Year - Affordable Housing GIC",
+          "Rate": 4.45
+        },
+        {
+          "Term": "5 Year",
+          "Rate": 4.30
+        }
+      ]
+    },
+    "$500,000 to $999,999": {
+      "Rates": [
+        {
+          "Term": "30-59 days",
+          "Rate": 2.60
+        },
+        {
+          "Term": "60-89 days",
+          "Rate": 2.65
+        },
+        {
+          "Term": "90-179 days",
+          "Rate": 2.70
+        },
+        {
+          "Term": "180-269 days",
+          "Rate": 3.55
+        },
+        {
+          "Term": "270-364 days",
+          "Rate": 3.85
+        },
+        {
+          "Term": "1 Year",
+          "Rate": 4.95
+        },
+        {
+          "Term": "2 Year",
+          "Rate": 4.70
+        },
+        {
+          "Term": "3 Year",
+          "Rate": 4.55
+        },
+        {
+          "Term": "Community Inspiration GIC Special",
+          "Rate": 4.65
+        },
+        {
+          "Term": "4 Year",
+          "Rate": 4.50
+        },
+        {
+          "Term": "4 Year - Affordable Housing GIC",
+          "Rate": 4.50
+        },
+        {
+          "Term": "5 Year",
+          "Rate": 4.35
+        }
+      ]
+    },
+    "$1,000,000 and over": {
+      "Rates": [
+        {
+          "Term": "30-59 days",
+          "Rate": 2.60
+        },
+        {
+          "Term": "60-89 days",
+          "Rate": 2.75
+        },
+        {
+          "Term": "90-179 days",
+          "Rate": 2.80
+        },
+        {
+          "Term": "180-269 days",
+          "Rate": 3.60
+        },
+        {
+          "Term": "270-364 days",
+          "Rate": 3.90
+        },
+        {
+          "Term": "1 Year",
+          "Rate": 5.00
+        },
+        {
+          "Term": "2 Year",
+          "Rate": 4.75
+        },
+        {
+          "Term": "3 Year",
+          "Rate": 4.60
+        },
+        {
+          "Term": "Community Inspiration GIC Special",
+          "Rate": 4.70
+        },
+        {
+          "Term": "4 Year",
+          "Rate": 4.55
+        },
+        {
+          "Term": "4 Year - Affordable Housing GIC",
+          "Rate": 4.55
+        },
+        {
+          "Term": "5 Year",
+          "Rate": 4.40
+        }
+      ]
+    }
+  },
+  "3-Year Step Term": {
+    "Rates": {
+      "Year 1": 3.60,
+      "Year 2": 4.25,
+      "Year 3": 4.30,
+      "Compound Return": 4.05
+    }
+  },
+  "5-Year Step Term": {
+    "Rates": {
+      "Year 1": 4.20,
+      "Year 2": 3.95,
+      "Year 3": 3.80,
+      "Year 4": 3.75,
+      "Year 5": 3.55,
+      "Compound Return": 3.85
+    }
+  }
+}
